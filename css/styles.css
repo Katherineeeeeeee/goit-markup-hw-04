@@ -133,9 +133,6 @@ img {
 
 /* Особливості */
 
-.features{
-    background-color: #F5F4FA;
-}
 
 .feature-list {
     --items: 4;
@@ -150,6 +147,8 @@ img {
     margin-bottom: 30px;
 
     height: 120px;
+
+    background-color: #F5F4FA;
 }
 
 
@@ -191,7 +190,6 @@ img {
 
 .section-photo.portfolio {
     margin-top: 0;
-    margin-bottom: 30px;
 }
 
 
@@ -311,18 +309,6 @@ img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Герой */
 .hero {
     padding: 200px 0;
@@ -336,7 +322,6 @@ img {
     background-color: #2f303a;
     background-repeat:no-repeat;
     max-width: 1600px;
- 
 }
 
 .hero-title {
@@ -392,7 +377,6 @@ img {
 .portfolio-item {
     width: 370px;
     cursor: pointer;
-    border: 1px solid transparent;
 }
 
 .portfolio-item:hover{
@@ -493,16 +477,13 @@ img {
 .btn.link:focus {
     color: var(--primary-white-colour);
     background-color: var(--accent-colour);
+
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio.btn:active {
     color: var(--primary-white-colour);
     background-color: var(--accent-colour);
-}
-
-.portfolio.btn:hover,
-.portfolio.btn:focus{
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
