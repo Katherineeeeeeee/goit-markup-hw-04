@@ -324,6 +324,7 @@ social-link:focus{
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
      url(../images/hero-img.png);
 
+    background-size: 1600px;
     background-color: #2f303a;
     background-repeat:no-repeat;
     background-position: 50% 50%;
@@ -342,8 +343,6 @@ social-link:focus{
 
     color: var(--primary-white-colour);
 }
-
-
 
 
 
@@ -377,15 +376,10 @@ social-link:focus{
     margin-right: 0px;
 }
 
+
 .portfolio-list {
     --items: 9;
 }
-
-
-
-
-
-
 
 .portfolio-item {
     width: 370px;
@@ -394,23 +388,9 @@ social-link:focus{
 }
 
 .portfolio-item:hover,
-.portfolio-item:focus{
-    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+.portfolio-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .project-title {
@@ -520,12 +500,19 @@ social-link:focus{
     background-color: #188ce8;
 }
 
+
 /* футер */
 
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2f303a;
+}
+
+.footer-flex{
+    display: flex;
+    align-items: baseline;
+    margin-right: 70px;
 }
 
 .footer .logo {
@@ -557,17 +544,7 @@ social-link:focus{
     color: rgba(255, 255, 255, 0.6);
 }
 
-
-
-
-
-
-
-
-
-
-
-/* Нижній другий фуьер -ДОРОБИТЬ */
+/* */
 
 .footer-icons{
     display: flex;
@@ -584,22 +561,9 @@ social-link:focus{
     color: var(--primary-white-colour);
     text-transform: uppercase;
 
+    margin-right: 20px;
     margin-bottom: 20px; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Контакти + навігація(студия, портфолио, контакты)*/
 .link:hover,
